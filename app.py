@@ -4,7 +4,12 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import japanize_matplotlib
+
+# フォントの設定
+from mplfonts import use_font
+use_font("Noto Sans CJK JP")
+import matplotlib
+matplotlib.rcParams["axes.unicode_minus"] = False
 
 from sklearn.datasets import make_regression
 from sklearn.linear_model import LinearRegression, RidgeCV, LassoCV

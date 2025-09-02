@@ -4,5 +4,4 @@ numpy
 scikit-learn
 seaborn
 matplotlib
-japanize-matplotlib
-python-3.11
+mplfonts
