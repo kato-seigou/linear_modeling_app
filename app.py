@@ -16,7 +16,7 @@ from sklearn.linear_model import LinearRegression, RidgeCV, LassoCV
 from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import StandardScaler
 
-st.set_page_config(page_title="モデルの精度比較", layout="wide")
+st.set_page_config(layout="wide")
 
 st.title("モデルの精度比較")
 
