@@ -83,7 +83,7 @@ if st.session_state.df_X is not None:
     # グラフの描写
     fig, ax = plt.subplots()
     sns.regplot(x=st.session_state.df_X[option], y=st.session_state.df_y["y"], ax=ax)
-    ax.set_title(f"{option} と Y の関係")
+    ax.set_title(f"Relationship of {option} and Y")
 
     # グラフの表示
     if st.button("グラフを表示する"):
